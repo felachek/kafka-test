@@ -1,5 +1,5 @@
 
-# Run Kafka on Apple M1 chip
+# Run Kafka on Apple with M1 chip
 
 ###  Download as zip file
 [confluent](https://www.confluent.io/get-started/?product=software)
@@ -41,3 +41,9 @@ kafka-console-consumer --topic test --bootstrap-server localhost:9092 --from-beg
 confluent local services stop
 confluent local destroy
 ```
+
+### Test app
+1. Start kafka
+2. Open browser to http://localhost:9021
+3. Run the app with ```go run .```
+
