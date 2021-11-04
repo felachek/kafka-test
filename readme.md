@@ -3,7 +3,7 @@
 
 ###  Download as zip file
 [confluent](https://www.confluent.io/get-started/?product=software)
-update in server.properties
+and update in server.properties
 folder path kafka/etc/server.properties
 ```
 listeners=PLAINTEXT://0.0.0.0:9092
